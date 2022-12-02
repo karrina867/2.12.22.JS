@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            height: 20px;
+            width: 10px;
+        }
+        .two{
+            height: 30px;
+            width: 20px;
+        }
+        .three{
+            height: 50px;
+            width: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+    <h1 >loren</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.s maiores.</p>
+    <h1>loren</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.s maiores.</p>
+    <h1>loren</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.s maiores.</p>
+    -->
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <script>
+        //1
+         /*let ellement = document.querySelectorAll('h1');
+         let ellement2 = document.querySelectorAll('p');
+         for(let i=0;i<3;i++){
+              ellement2[i].style.color = 'blue';
+              ellement[i].style.color = 'red';
+         }
+         //2
+        for(let i=0;i<3;i++){
+              if(ellement2[i].style.color == 'blue'){
+                ellement2[i].style.color = 'red';
+              }
+              if(ellement[i].style.color == 'red'){
+                ellement[i].style.color = 'blue';
+              }
+         }*/
+         //3
+         let ellement3 = document.querySelector('.one');
+         let ellement4 = document.querySelector('.two');
+         let ellement5 = document.querySelector('.three');
+
+     setTimeout(function(){
+        ellem.style.width = `${parseInt(getComputedStyle(el).height)}`;
+        el2.style.height = `${parseInt(getComputedStyle(el).height)+100}px`;
+     },2000)
+
+
+            
+    </script>
+    
+</body>
+</html>

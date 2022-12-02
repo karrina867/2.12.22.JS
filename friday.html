@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .fs{
+            font-size: 20px;
+        }
+        .f{
+            color: blue;
+        }
+        .circle{
+            width: 15vh;
+            height: 15vh;
+            border-radius: 50%;
+          
+        }
+        .color1{
+            background-color: red;
+
+        }
+        .color2{
+            background-color: green;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="circle color1" ></div>
+ <!--  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis quia sunt doloremque itaque? Placeat necessitatibus corrupti earum qui ipsum error commodi quas quos ea. Delectus quaerat ipsa totam repellendus.</p>
+    <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis quia sunt doloremque itaque? Placeat necessitatibus corrupti earum qui ipsum error commodi quas quos ea. Delectus quaerat ipsa totam repellendus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis quia sunt doloremque itaque? Placeat necessitatibus corrupti earum qui ipsum error commodi quas quos ea. Delectus quaerat ipsa totam repellendus.</p>
+-->
+    <script>
+      /*  let el = document.querySelector('.text');
+        /*  console.log(el);
+      el.style.color = 'red';
+        el.style['color'] = 'red';
+        let cl = 'color';*/
+       /* el.style[cl] = 'red';
+
+
+        el.className =el.className + ' fs';
+
+
+        //1
+        el.classList.add('fs');
+
+        //2
+        el.classList.remove('text');
+        //
+        let el1 = document.querySelectorAll('.text1');
+        el1[0].classList.add('f');
+        //
+*/
+
+        let el = document.querySelector('.circle');
+       /* console.log(el);
+        let count = true;
+        function changeColor(){
+            if(count == true){
+                el.classList.add('color1');
+                el.classList.remove('color2');
+                count = false;
+            }
+            else{
+                el.classList.add('color2');
+                el.classList.remove('color1');
+                count = true;
+            }
+        }
+        let start =setInterval(changeColor,1000);
+
+        setTimeout(function(){
+             clear.setInterval(start);
+        },5000);
+        */
+       /*
+        function changeColor(){
+            el.classList.toggle('color1');
+            el.classList.toggle('color2');
+        }
+        let start = setInterval(changeColor,1000);
+
+        setTimeout(function(){
+             clearInterval(start);
+        },5000);
+*/
+     /*   let el1 = document.querySelector('.circle'); 
+        function getRC(){
+            return Math.floor(Math.random()* 256);
+
+        }
+        let start1 = setInterval(function(){
+            el1.style[' background-color'] = `rgb(${getRG()},${getRG()},${getRG()})`;
+        },1000);
+
+
+        setTimeout(function(){
+             clearInterval(start1);
+        },5000);
+*/
+        //
+     //   console.log(getComputedStyle(el).width);
+
+/*
+     let el2 = document.querySelector('.circle');
+     function Wid(){
+        getComputedStyle(el).width;
+     }
+     let start2= setInterval(function(){
+        let w = +(getComputedStyle(el).width) + 100;
+     },5000);*/
+
+     //
+     /*
+     let el2 = document.querySelector('.circle');
+     setTimeout(function(){
+        el2.style.width = `${parseInt(getComputedStyle(el).width)+100}px`;
+        el2.style.height = `${parseInt(getComputedStyle(el).height)+100}px`;
+     },2000)
+     */
+    
+
+
+
+    </script>
+</body>
+</html>
